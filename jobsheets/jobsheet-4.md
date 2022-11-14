@@ -18,7 +18,7 @@ Goal dalam jobsheet ini menyiapkan **`Vue.js`** untuk projek **`Toko Online`**.
 #### C. Download Vue.js
 1. Download dan simpan https://cdn.jsdelivr.net/npm/vue@2 kedalam folder projek
 2. Bubuhakan `vue@2.js` sebelum tutup `</body>`
-```html
+```
 ...
 
   <script src="vue@2.js"></script>

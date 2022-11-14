@@ -16,11 +16,11 @@ Goal dalam jobsheet ini membuat layout sederhana untuk menampilkan daftar item p
 Lanjutan dari jobsheet 1.
 
 1. Buat `<div>` dengan *class* **`items`** setelah `<header>`
-```html
+```
 <div class="items">
 ```
 2. Buat `<div>` dengan *class* **`item`** didalam **`items`**
-```html
+```
 <div class="items">
   <div class="item">
 
@@ -28,7 +28,7 @@ Lanjutan dari jobsheet 1.
 </div>
 ```
 3. Buat dua `<div>` dengan *class* **`foto`** dan **`content`** didalam **`item`**
-```html
+```
 <div class="items">
   <div class="item">
     <div class="foto"></div>
@@ -37,7 +37,7 @@ Lanjutan dari jobsheet 1.
 </div>
 ```
 4. Isikan placeholder untuk foto dan content: nama produk, harga dan deskripsi
-```html
+```
 <div class="items">
   <div class="item">
     <div class="foto">
@@ -56,7 +56,7 @@ Lanjutan dari jobsheet 1.
 5.2 Buat folder `img` didalam folder `assets`
 5.3 Copy-Paste contoh foto untuk placeholder difolder `img` (misal: `foto.jpg`)
 6. Panggil foto/gambar dengan tag `<img>` dibagian `<item>`
-```html
+```
 <div class="foto">
   <img src="./assets/img/foto.jpg" class="foto-produk" alt="foto produk">
 </div>
@@ -66,7 +66,7 @@ Lanjutan dari jobsheet 1.
 #### C. Styling dengan CSS
 1. Buat file `style.css`
 2. Panggil `style.css` didalam file `index.html` bagian `<head>`
-```html
+```
 <head>
   <link rel="stylesheet" href="style.css">
 </head>
