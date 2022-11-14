@@ -16,12 +16,15 @@ Goal dalam jobsheet ini membuat `Dark Mode` (Mode gelap) sederhana dengan satu t
 Lanjutan dari jobsheet 2.
 
 1. Didalam `<header>` buat `<button>` yang dibungkus `<div>` dengan *class* **`darkmode`**
+
 ```html
   <div class="darkmode">
     <button id="btn-darkmode"></button>
   </div>
 ```
+
 2. Tambahkan *attribute*  `onclick` yang memanggil `changeMode()` pada `<button>`
+
 ```html
 <button id="btn-darkmode" onclick="changeMode()"></button>
 ```
@@ -29,13 +32,17 @@ Lanjutan dari jobsheet 2.
 #### C. Styling Button
 Buka file `style.css`
 1. Tetapkan posisi *button* secara `absolute`
-```cssheader .darkmode {
+
+```css
+header .darkmode {
   position: absolute;
   top: 1vh;
   right: 1vh;
 }
 ```
+
 2. Beriktan *style* untuk button `#btn-darkmode`
+
 ```css
 #btn-darkmode {
   width: 5vh;
@@ -51,29 +58,38 @@ Buka file `style.css`
 #### D. Membuat function Dark Mode
 1. Buat file `darkmode.js`
 2. Bubuhkan sebelum tutup `</body>` pada file `index.html`
+
 ```html
   <script src="darkmode.js"></script>
   
   </body>
 </html>
 ```
+
 2. Buka file `app.js`
 3. Buat *variable* `btn` yang diisi element button dikaitkan dengan `id`
+
 ```js
 let btn = document.getElementById('btn-darkmode')
 ```
+
 4. Isikan nilai awal/default untuk label dan default mode pada *button*
+
 ```js
 btn.innerHTML = "☀️"
 let defaultMode = "light"
 ```
+
 5. Buat function `changeMode()`
+
 ```js
 function changeMode() {
 
 }
 ```
+
 6. Buat control program jika nilai `defaultMode` sama dengan atau tidak sama dengan dan ubah nilai *style*-nya
+
 ```js
 function changeMode() {
   if(defaultMode === "light") {

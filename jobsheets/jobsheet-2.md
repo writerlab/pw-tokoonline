@@ -15,45 +15,29 @@ Goal dalam jobsheet ini membuat layout sederhana untuk menampilkan daftar item p
 #### C. Membuat Kerangka Layout dengan HTML
 Lanjutan dari jobsheet 1.
 
-1. Buat `<div>` dengan *class* **`items`**
+1. Buat `<div>` dengan *class* **`items`** setelah `<header>`
 ```html
-...
-
 <div class="items">
-
-</div>
-
-...
 ```
 2. Buat `<div>` dengan *class* **`item`** didalam **`items`**
 ```html
-...
-
 <div class="items">
   <div class="item">
 
   </div>
 </div>
-
-...
 ```
 3. Buat dua `<div>` dengan *class* **`foto`** dan **`content`** didalam **`item`**
 ```html
-...
-
 <div class="items">
   <div class="item">
     <div class="foto"></div>
     <div class="content"></div>
   </div>
 </div>
-
-...
 ```
 4. Isikan placeholder untuk foto dan content: nama produk, harga dan deskripsi
 ```html
-...
-
 <div class="items">
   <div class="item">
     <div class="foto">
@@ -66,8 +50,6 @@ Lanjutan dari jobsheet 1.
     </div>
   </div>
 </div>
-
-...
 ```
 5. Menyiapkan foto untuk placeholder
 5.1 Buat folder `assets`
@@ -75,13 +57,9 @@ Lanjutan dari jobsheet 1.
 5.3 Copy-Paste contoh foto untuk placeholder difolder `img` (misal: `foto.jpg`)
 6. Panggil foto/gambar dengan tag `<img>` dibagian `<item>`
 ```html
-...
-
 <div class="foto">
   <img src="./assets/img/foto.jpg" class="foto-produk" alt="foto produk">
 </div>
-
-...
 ```
 
 
@@ -90,7 +68,6 @@ Lanjutan dari jobsheet 1.
 2. Panggil `style.css` didalam file `index.html` bagian `<head>`
 ```html
 <head>
-  ...
   <link rel="stylesheet" href="style.css">
 </head>
 ```
@@ -103,8 +80,6 @@ h1 {
 ```
 4. Berikan style untuk `items` dan `item` dengan display `flex`, border bottom setebal 2 piksel berwarna abu-abu
 ```css
-...
-
 .items {
   width: 100%;
 }
@@ -117,8 +92,6 @@ h1 {
 ```
 5. Berikan style untuk pembungkus `foto`: lebar dan posisi konten foto
 ```css
-...
-
 .items .item .foto {
   width: 100px;
   height: auto;
@@ -130,16 +103,12 @@ h1 {
 ```
 6. Berikan style jarak padding kiri untuk pembungkus `content`
 ```css
-...
-
 .items .item .content {
   padding: 0 7px 0 7px;
 }
 ```
 7. Berikan style lebar untuk ukuran foto pada *class* `foto-produk`
 ```css
-...
-
 .items .item .foto .foto-produk {
   width: 100%;
 }
