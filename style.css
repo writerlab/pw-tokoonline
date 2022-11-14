@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+  color: tomato;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.items {
+  width: 100%;
+}
+
+.items .item {
+  display: flex;
+  margin-bottom: 10px;
+  border-bottom: 2px solid gray;
+}
+
+.items .item .foto {
+  width: 100px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.items .item .foto .foto-produk {
+  width: 100%;
+}
+
+.items .item .content {
+  padding: 0 7px 0 7px;
+}
+
+header .darkmode {
+  position: absolute;
+  top: 1vh;
+  right: 1vh;
+}
+
+#btn-darkmode {
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  border: none;
+  font-size: 3vh;
+  cursor: pointer;
+  background-color: transparent;
+}
