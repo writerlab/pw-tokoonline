@@ -8,15 +8,15 @@ Lanjutan dari jobsheet 2.
 
 ---
 #### A. Tools Kebutuhan
-1. Text editor (Visual Studio Code)
-2. Web browser (Google Chrome)
+- Text editor (Visual Studio Code)
+- Web browser (Google Chrome)
 
 #### B. Goal
 Goal dalam jobsheet ini membuat `Dark Mode` (Mode gelap) sederhana dengan satu tombol.
 ![SS Goal](/pw-tokoonline/ss/ss-jobsheet-3.gif)
 
 #### C. Membuat Button Darkmode
-1. Didalam `<header>` buat `button` yang dibungkus `div` dengan *class* **`darkmode`**
+- Didalam `<header>` buat `button` yang dibungkus `div` dengan *class* **`darkmode`**
 
 ```
   <div class="darkmode">
@@ -24,15 +24,15 @@ Goal dalam jobsheet ini membuat `Dark Mode` (Mode gelap) sederhana dengan satu t
   </div>
 ```
 
-2. Tambahkan *attribute*  `onclick` yang memanggil `changeMode()` pada `button`
+- Tambahkan *attribute*  `onclick` yang memanggil `changeMode()` pada `button`
 
 ```
 <button id="btn-darkmode" onclick="changeMode()"></button>
 ```
 
 #### D. Styling Button
-Buka file `style.css`
-1. Tetapkan posisi *button* secara `absolute`
+- Buka file `style.css`
+- Tetapkan posisi *button* secara `absolute`
 
 ```css
 header .darkmode {
@@ -42,7 +42,7 @@ header .darkmode {
 }
 ```
 
-2. Beriktan *style* untuk button `#btn-darkmode`
+- Beriktan *style* untuk button `#btn-darkmode`
 
 ```css
 #btn-darkmode {
@@ -57,8 +57,8 @@ header .darkmode {
 ```
 
 #### E. Membuat function Dark Mode
-1. Buat file `darkmode.js`
-2. Bubuhkan sebelum tutup `</body>` pada file `index.html`
+- Buat file `darkmode.js`
+- Bubuhkan sebelum tutup `</body>` pada file `index.html`
 
 ```
   <script src="darkmode.js"></script>
@@ -67,21 +67,21 @@ header .darkmode {
 </html>
 ```
 
-3. Buka file `app.js`
-4. Buat *variable* `btn` yang diisi element button dikaitkan dengan `id`
+- Buka file `app.js`
+- Buat *variable* `btn` yang diisi element button dikaitkan dengan `id`
 
 ```js
 let btn = document.getElementById('btn-darkmode')
 ```
 
-5. Isikan nilai awal/default untuk label dan default mode pada *button*
+- Isikan nilai awal/default untuk label dan default mode pada *button*
 
 ```js
 btn.innerHTML = "☀️"
 let defaultMode = "light"
 ```
 
-6. Buat function `changeMode()`
+- Buat function `changeMode()`
 
 ```js
 function changeMode() {
@@ -89,7 +89,7 @@ function changeMode() {
 }
 ```
 
-7. Buat control program jika nilai `defaultMode` sama dengan atau tidak sama dengan dan ubah nilai *style*-nya
+- Buat control program jika nilai `defaultMode` sama dengan atau tidak sama dengan dan ubah nilai *style*-nya
 
 ```js
 function changeMode() {

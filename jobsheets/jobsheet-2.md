@@ -8,8 +8,8 @@ Lanjutan dari jobsheet 1.
 
 ---
 #### A. Tools Kebutuhan
-1. Text editor (Visual Studio Code)
-2. Web browser (Google Chrome)
+- Text editor (Visual Studio Code)
+- Web browser (Google Chrome)
 
 #### B. Goal
 Goal dalam jobsheet ini membuat layout sederhana untuk menampilkan daftar item produk.
@@ -17,13 +17,16 @@ Goal dalam jobsheet ini membuat layout sederhana untuk menampilkan daftar item p
 
 #### C. Membuat Kerangka Layout dengan HTML
 
-1. Buat `<div>` dengan *class* **`items`** setelah `<header>`
+- Buat `<div>` dengan *class* **`items`** setelah `<header>`
+
 ```
 <div class="items">
 
 </div>
 ```
-2. Buat `<div>` dengan *class* **`item`** didalam **`items`**
+
+- Buat `<div>` dengan *class* **`item`** didalam **`items`**
+
 ```
 <div class="items">
   <div class="item">
@@ -31,7 +34,9 @@ Goal dalam jobsheet ini membuat layout sederhana untuk menampilkan daftar item p
   </div>
 </div>
 ```
-3. Buat dua `<div>` dengan *class* **`foto`** dan **`content`** didalam **`item`**
+
+- Buat dua `<div>` dengan *class* **`foto`** dan **`content`** didalam **`item`**
+
 ```
 <div class="items">
   <div class="item">
@@ -40,7 +45,9 @@ Goal dalam jobsheet ini membuat layout sederhana untuk menampilkan daftar item p
   </div>
 </div>
 ```
-4. Isikan *placeholder* untuk foto dan content: nama produk, harga dan deskripsi
+
+- Isikan *placeholder* untuk foto dan content: nama produk, harga dan deskripsi
+
 ```
 <div class="items">
   <div class="item">
@@ -55,34 +62,40 @@ Goal dalam jobsheet ini membuat layout sederhana untuk menampilkan daftar item p
   </div>
 </div>
 ```
-5. Menyiapkan foto untuk placeholder
-5.1 Buat folder `assets`
-5.2 Buat folder `img` didalam folder `assets`
-5.3 Copy-Paste contoh foto untuk placeholder difolder `img` (misal: `foto.jpg`)
-6. Panggil foto/gambar dengan tag `<img>`
+
+- Menyiapkan foto untuk placeholder
+  - Buat folder `assets`
+  - Buat folder `img` didalam folder `assets`
+  - Copy-Paste contoh foto untuk placeholder difolder `img` (misal: `foto.jpg`)
+- Panggil foto/gambar dengan tag `<img>`
+
 ```
 <div class="foto">
   <img src="./assets/img/foto.jpg" class="foto-produk" alt="foto produk">
 </div>
 ```
 
-
 #### C. Styling dengan CSS
-1. Buat file `style.css`
-2. Panggil `style.css` didalam file `index.html` bagian `<head>`
+- Buat file `style.css`
+- Panggil `style.css` didalam file `index.html` bagian `<head>`
+
 ```
 <head>
   <link rel="stylesheet" href="style.css">
 </head>
 ```
-3. Didalam file `style.css` berikan style untuk bagian `<h1>`
+
+- Didalam file `style.css` berikan style untuk bagian `<h1>`
+
 ```css
 h1 {
   text-align: center;
   color: tomato;
 }
 ```
-4. Berikan style untuk `items` dan `item` dengan display `flex`, border bottom setebal 2 piksel berwarna abu-abu
+
+- Berikan style untuk `items` dan `item` dengan display `flex`, border bottom setebal 2 piksel berwarna abu-abu
+
 ```css
 .items {
   width: 100%;
@@ -94,7 +107,9 @@ h1 {
   border-bottom: 2px solid gray;
 }
 ```
-5. Berikan style untuk pembungkus `foto`: lebar dan posisi konten foto
+
+- Berikan style untuk pembungkus `foto`: lebar dan posisi konten foto
+
 ```css
 .items .item .foto {
   width: 100px;
@@ -105,13 +120,17 @@ h1 {
   align-items: center;
 }
 ```
-6. Berikan style jarak padding kiri untuk pembungkus `content`
+
+- Berikan style jarak padding kiri untuk pembungkus `content`
+
 ```css
 .items .item .content {
   padding: 0 7px 0 7px;
 }
 ```
-7. Berikan style lebar untuk ukuran foto pada *class* `foto-produk`
+
+- Berikan style lebar untuk ukuran foto pada *class* `foto-produk`
+
 ```css
 .items .item .foto .foto-produk {
   width: 100%;

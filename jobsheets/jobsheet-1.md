@@ -3,31 +3,40 @@ Pemrograman Web & perangkat Bergerak.
 Tahun 2022/2023.
 
 ## Judul: Setup Dasar
+
 ---
+
 #### A. Tools Kebutuhan
-1. Cmd
-2. Text editor (Visual Studio Code)
-3. Web browser (Google Chrome)
+- Cmd
+- Text editor (Visual Studio Code)
+- Web browser (Google Chrome)
 
 #### B. Memulai
-1. Buka **`Cmd`** (*Command Prompt*)
-2. Masuk ke direktori Desktop dan buat folder: `tokoonline`
+- Buka **`Cmd`** (*Command Prompt*)
+
+- Masuk ke direktori Desktop dan buat folder: `tokoonline`
+
 ```bash
 cd Desktop
 md tokoonline
 ```
-3. Masuk ke direktori `tokoonline`
+
+- Masuk ke direktori `tokoonline`
+
 ```bash
 cd tokoonline
 ```
-4. Buka dengan Visual Studio Code
+
+- Buka dengan Visual Studio Code
+
 ```bash
 code .
 ```
 
 #### C. Initial file
-1. Buat file `index.html`
-2. Isikan struktur dasar HTML
+- Buat file `index.html`
+- Isikan struktur `html`
+
 ```
 <html>
   <head>
@@ -42,4 +51,5 @@ code .
 
 </html>
 ```
-3. Jalankan Live Server, klik `📡 Go Live` di sudut kanan bawah. Secara otomatis akan membuka tab browser `http://localhost:5500`
+
+- Jalankan Live Server, klik `📡 Go Live` di sudut kanan bawah. Secara otomatis akan membuka tab browser `http://localhost:5500`

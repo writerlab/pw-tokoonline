@@ -7,23 +7,23 @@ Tahun 2022/2023.
 Lanjutan dari jobsheet 3.
 
 ---
+
 #### A. Tools Kebutuhan
-1. Text editor (Visual Studio Code)
-2. Web browser (Google Chrome)
+- Text editor (Visual Studio Code)
+- Web browser (Google Chrome)
 
 #### B. Goal
 Goal dalam jobsheet ini menyiapkan **`Vue.js`** untuk projek **`Toko Online`**.
 *Docs & reference: https://v2.vuejs.org*
 
 #### C. Download Vue.js
-1. Download dan simpan https://cdn.jsdelivr.net/npm/vue@2 kedalam folder projek
-2. Bubuhakan `vue@2.js` sebelum tutup `</body>`
+- Download dan simpan https://cdn.jsdelivr.net/npm/vue@2 kedalam folder projek
+- Bubuhakan `vue@2.js` sebelum tutup `</body>`
+
 ```
 ...
-
   <script src="vue@2.js"></script>
-  </body>
-<html>
+...
 ```
 
 ---
