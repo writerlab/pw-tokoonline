@@ -14,10 +14,10 @@ Lanjutan dari jobsheet 3.
 
 #### B. Goal
 Goal dalam jobsheet ini menyiapkan **`Vue.js`** untuk projek **`Toko Online`**.
-*Docs & reference: https://v2.vuejs.org*
+*Docs & reference: [https://v2.vuejs.org](https://v2.vuejs.org)*
 
 #### C. Download Vue.js
-- Download dan simpan https://cdn.jsdelivr.net/npm/vue@2 kedalam folder projek
+- Download dan simpan [https://cdn.jsdelivr.net/npm/vue@2](https://cdn.jsdelivr.net/npm/vue@2) kedalam folder projek
 - Bubuhakan `vue@2.js` sebelum tutup `</body>`
 
 ```

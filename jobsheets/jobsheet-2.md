@@ -75,7 +75,7 @@ Goal dalam jobsheet ini membuat layout sederhana untuk menampilkan daftar item p
 </div>
 ```
 
-#### C. Styling dengan CSS
+#### D. Styling dengan CSS
 - Buat file `style.css`
 - Panggil `style.css` didalam file `index.html` bagian `<head>`
 
