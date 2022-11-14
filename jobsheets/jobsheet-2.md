@@ -10,7 +10,7 @@ Tahun 2022/2023.
 
 #### B. Goal
 Goal dalam jobsheet ini membuat layout sederhana untuk menampilkan daftar item produk.
-![SS Goal](/ss/ss-jobsheet-2.png)
+![SS Goal](/pw-tokoonline/ss/ss-jobsheet-2.png)
 
 #### C. Membuat Kerangka Layout dengan HTML
 Lanjutan dari jobsheet 1.

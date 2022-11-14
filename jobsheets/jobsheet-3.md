@@ -10,35 +10,26 @@ Tahun 2022/2023.
 
 #### B. Goal
 Goal dalam jobsheet ini membuat `Dark Mode` (Mode gelap) sederhana dengan satu tombol.
-![SS Goal](/ss/ss-jobsheet-3.gif)
+![SS Goal](/pw-tokoonline/ss/ss-jobsheet-3.gif)
 
 #### C. Membuat Button Darkmode
 Lanjutan dari jobsheet 2.
 
 1. Didalam `<header>` buat `<button>` yang dibungkus `<div>` dengan *class* **`darkmode`**
 ```html
-...
-
   <div class="darkmode">
     <button id="btn-darkmode"></button>
   </div>
-
-...
 ```
 2. Tambahkan *attribute*  `onclick` yang memanggil `changeMode()` pada `<button>`
 ```html
-...
 <button id="btn-darkmode" onclick="changeMode()"></button>
-...
 ```
 
 #### C. Styling Button
 Buka file `style.css`
 1. Tetapkan posisi *button* secara `absolute`
-```css
-...
-
-header .darkmode {
+```cssheader .darkmode {
   position: absolute;
   top: 1vh;
   right: 1vh;
@@ -46,8 +37,6 @@ header .darkmode {
 ```
 2. Beriktan *style* untuk button `#btn-darkmode`
 ```css
-...
-
 #btn-darkmode {
   width: 5vh;
   height: 5vh;
@@ -63,8 +52,6 @@ header .darkmode {
 1. Buat file `darkmode.js`
 2. Bubuhkan sebelum tutup `</body>` pada file `index.html`
 ```html
-...
-
   <script src="darkmode.js"></script>
   
   </body>
@@ -77,8 +64,6 @@ let btn = document.getElementById('btn-darkmode')
 ```
 4. Isikan nilai awal/default untuk label dan default mode pada *button*
 ```js
-...
-
 btn.innerHTML = "☀️"
 let defaultMode = "light"
 ```
