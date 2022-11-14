@@ -3,6 +3,9 @@ Pemrograman Web & perangkat Bergerak.
 Tahun 2022/2023.
 
 ## Judul: Membuat Dark Mode dengan Javascript
+
+Lanjutan dari jobsheet 2.
+
 ---
 #### A. Tools Kebutuhan
 1. Text editor (Visual Studio Code)
@@ -13,8 +16,6 @@ Goal dalam jobsheet ini membuat `Dark Mode` (Mode gelap) sederhana dengan satu t
 ![SS Goal](/pw-tokoonline/ss/ss-jobsheet-3.gif)
 
 #### C. Membuat Button Darkmode
-Lanjutan dari jobsheet 2.
-
 1. Didalam `<header>` buat `button` yang dibungkus `div` dengan *class* **`darkmode`**
 
 ```
@@ -55,7 +56,7 @@ header .darkmode {
 }
 ```
 
-#### D. Membuat function Dark Mode
+#### E. Membuat function Dark Mode
 1. Buat file `darkmode.js`
 2. Bubuhkan sebelum tutup `</body>` pada file `index.html`
 
@@ -66,21 +67,21 @@ header .darkmode {
 </html>
 ```
 
-2. Buka file `app.js`
-3. Buat *variable* `btn` yang diisi element button dikaitkan dengan `id`
+3. Buka file `app.js`
+4. Buat *variable* `btn` yang diisi element button dikaitkan dengan `id`
 
 ```js
 let btn = document.getElementById('btn-darkmode')
 ```
 
-4. Isikan nilai awal/default untuk label dan default mode pada *button*
+5. Isikan nilai awal/default untuk label dan default mode pada *button*
 
 ```js
 btn.innerHTML = "☀️"
 let defaultMode = "light"
 ```
 
-5. Buat function `changeMode()`
+6. Buat function `changeMode()`
 
 ```js
 function changeMode() {
@@ -88,7 +89,7 @@ function changeMode() {
 }
 ```
 
-6. Buat control program jika nilai `defaultMode` sama dengan atau tidak sama dengan dan ubah nilai *style*-nya
+7. Buat control program jika nilai `defaultMode` sama dengan atau tidak sama dengan dan ubah nilai *style*-nya
 
 ```js
 function changeMode() {

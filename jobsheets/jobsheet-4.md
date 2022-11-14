@@ -4,7 +4,7 @@ Tahun 2022/2023.
 
 ## Judul: Setup Vue.js
 
-Lanjutan dari jobsheet 3
+Lanjutan dari jobsheet 3.
 
 ---
 #### A. Tools Kebutuhan

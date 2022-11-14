@@ -3,6 +3,9 @@ Pemrograman Web & perangkat Bergerak.
 Tahun 2022/2023.
 
 ## Judul: HTML Layout & CSS
+
+Lanjutan dari jobsheet 1.
+
 ---
 #### A. Tools Kebutuhan
 1. Text editor (Visual Studio Code)
@@ -13,11 +16,12 @@ Goal dalam jobsheet ini membuat layout sederhana untuk menampilkan daftar item p
 ![SS Goal](/pw-tokoonline/ss/ss-jobsheet-2.png)
 
 #### C. Membuat Kerangka Layout dengan HTML
-Lanjutan dari jobsheet 1.
 
 1. Buat `<div>` dengan *class* **`items`** setelah `<header>`
 ```
 <div class="items">
+
+</div>
 ```
 2. Buat `<div>` dengan *class* **`item`** didalam **`items`**
 ```
@@ -36,7 +40,7 @@ Lanjutan dari jobsheet 1.
   </div>
 </div>
 ```
-4. Isikan placeholder untuk foto dan content: nama produk, harga dan deskripsi
+4. Isikan *placeholder* untuk foto dan content: nama produk, harga dan deskripsi
 ```
 <div class="items">
   <div class="item">
@@ -55,7 +59,7 @@ Lanjutan dari jobsheet 1.
 5.1 Buat folder `assets`
 5.2 Buat folder `img` didalam folder `assets`
 5.3 Copy-Paste contoh foto untuk placeholder difolder `img` (misal: `foto.jpg`)
-6. Panggil foto/gambar dengan tag `<img>` dibagian `<item>`
+6. Panggil foto/gambar dengan tag `<img>`
 ```
 <div class="foto">
   <img src="./assets/img/foto.jpg" class="foto-produk" alt="foto produk">
@@ -71,7 +75,7 @@ Lanjutan dari jobsheet 1.
   <link rel="stylesheet" href="style.css">
 </head>
 ```
-3. Didalam file `style.css` berikan style untuk bagian `<header>`
+3. Didalam file `style.css` berikan style untuk bagian `<h1>`
 ```css
 h1 {
   text-align: center;

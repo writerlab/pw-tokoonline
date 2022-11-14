@@ -28,7 +28,7 @@ code .
 #### C. Initial file
 1. Buat file `index.html`
 2. Isikan struktur dasar HTML
-```html
+```
 <html>
   <head>
     <title>Toko Online</title>
