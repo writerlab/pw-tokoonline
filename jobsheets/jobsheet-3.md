@@ -15,21 +15,21 @@ Goal dalam jobsheet ini membuat `Dark Mode` (Mode gelap) sederhana dengan satu t
 #### C. Membuat Button Darkmode
 Lanjutan dari jobsheet 2.
 
-1. Didalam `<header>` buat `<button>` yang dibungkus `<div>` dengan *class* **`darkmode`**
+1. Didalam `<header>` buat `button` yang dibungkus `div` dengan *class* **`darkmode`**
 
-```html
+```
   <div class="darkmode">
     <button id="btn-darkmode"></button>
   </div>
 ```
 
-2. Tambahkan *attribute*  `onclick` yang memanggil `changeMode()` pada `<button>`
+2. Tambahkan *attribute*  `onclick` yang memanggil `changeMode()` pada `button`
 
-```html
+```
 <button id="btn-darkmode" onclick="changeMode()"></button>
 ```
 
-#### C. Styling Button
+#### D. Styling Button
 Buka file `style.css`
 1. Tetapkan posisi *button* secara `absolute`
 
@@ -59,7 +59,7 @@ header .darkmode {
 1. Buat file `darkmode.js`
 2. Bubuhkan sebelum tutup `</body>` pada file `index.html`
 
-```html
+```
   <script src="darkmode.js"></script>
   
   </body>
