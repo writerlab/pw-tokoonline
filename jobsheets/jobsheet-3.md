@@ -67,7 +67,7 @@ header .darkmode {
 </html>
 ```
 
-- Buka file `app.js`
+- Buka file `darkmode.js`
 - Buat *variable* `btn` yang diisi element button dikaitkan dengan `id`
 
 ```js
