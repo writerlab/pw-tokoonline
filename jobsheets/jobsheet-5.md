@@ -36,12 +36,13 @@ data() {
 - Buka file `index.html`
 - Pada elemen `<p>{{ deskripsi }}</p>` tambahkan `v-if` degan nilai `show` didalam `<p>`
 
-```
-<p v-if="show">{{ deskripsi }}</p>
+```js
+<p v-if="show">Cilok dan yang lunak-lunak</p>
 ```
 
 - Jalankan Live Server dan perhatikan hasilnya
 - Ubah nilai properti `show: false` dan liat hasilnya
+
 ---
 
 #### D. v-for
