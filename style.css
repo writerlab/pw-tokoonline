@@ -1,3 +1,7 @@
+html, body {
+  margin: 2vh 7vh 2vh 7vh;
+}
+
 h1 {
   text-align: center;
   color: tomato;
@@ -10,7 +14,8 @@ h1 {
 
 .items .item {
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
   border-bottom: 2px solid gray;
 }
 
@@ -24,11 +29,14 @@ h1 {
 }
 
 .items .item .foto .foto-produk {
-  width: 100%;
+  width: 100px;
 }
 
 .items .item .content {
-  padding: 0 7px 0 7px;
+  padding: 0 7px 0 15px;
+}
+.items .item .content p {
+  font-size: 2vh;
 }
 
 header .darkmode {
@@ -45,4 +53,8 @@ header .darkmode {
   font-size: 3vh;
   cursor: pointer;
   background-color: transparent;
+}
+
+header {
+  text-align: center;
 }

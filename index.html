@@ -1,99 +1,37 @@
 <html>
-  <head>
-    <title>PW - TOKOONLINE.</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+
+<head>
+  <title>PW - TOKOONLINE.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="app">
     <header>
       <div class="darkmode">
         <button id="btn-darkmode" onclick="changeMode()"></button>
       </div>
-      <h1>Toko Online</h1>
+      <h1>{{ title }}</h1>
+      <p>{{ deskripsi }}</p>
     </header>
 
     <div class="items">
-      <div class="item">
+      <div v-for="item in items" :key="item.id" class="item">
         <div class="foto">
           <img src="./assets/img/foto.jpg" class="foto-produk" alt="foto produk">
         </div>
         <div class="content">
-          <h2>Judul Produk</h2>
-          <h3>Rp12000</h3>
-          <p>ini deskrpsi produk...</p>
-        </div>
-      </div>
-      <div class="item">
-        <div class="foto">
-          <img src="./assets/img/foto.jpg" class="foto-produk" alt="foto produk">
-        </div>
-        <div class="content">
-          <h2>Judul Produk</h2>
-          <h3>Rp12000</h3>
-          <p>ini deskrpsi produk...</p>
-        </div>
-      </div>
-      <div class="item">
-        <div class="foto">
-          <img src="./assets/img/foto.jpg" class="foto-produk" alt="foto produk">
-        </div>
-        <div class="content">
-          <h2>Judul Produk</h2>
-          <h3>Rp12000</h3>
-          <p>ini deskrpsi produk...</p>
-        </div>
-      </div>
-      <div class="item">
-        <div class="foto">
-          <img src="./assets/img/foto.jpg" class="foto-produk" alt="foto produk">
-        </div>
-        <div class="content">
-          <h2>Judul Produk</h2>
-          <h3>Rp12000</h3>
-          <p>ini deskrpsi produk...</p>
-        </div>
-      </div>
-      <div class="item">
-        <div class="foto">
-          <img src="./assets/img/foto.jpg" class="foto-produk" alt="foto produk">
-        </div>
-        <div class="content">
-          <h2>Judul Produk</h2>
-          <h3>Rp12000</h3>
-          <p>ini deskrpsi produk...</p>
-        </div>
-      </div>
-      <div class="item">
-        <div class="foto">
-          <img src="./assets/img/foto.jpg" class="foto-produk" alt="foto produk">
-        </div>
-        <div class="content">
-          <h2>Judul Produk</h2>
-          <h3>Rp12000</h3>
-          <p>ini deskrpsi produk...</p>
-        </div>
-      </div>
-      <div class="item">
-        <div class="foto">
-          <img src="./assets/img/foto.jpg" class="foto-produk" alt="foto produk">
-        </div>
-        <div class="content">
-          <h2>Judul Produk</h2>
-          <h3>Rp12000</h3>
-          <p>ini deskrpsi produk...</p>
-        </div>
-      </div>
-      <div class="item">
-        <div class="foto">
-          <img src="./assets/img/foto.jpg" class="foto-produk" alt="foto produk">
-        </div>
-        <div class="content">
-          <h2>Judul Produk</h2>
-          <h3>Rp12000</h3>
-          <p>ini deskrpsi produk...</p>
+          <h2>{{ item.nama }}</h2>
+          <h3>Rp1000</h3>
+          <p>ini deskripsi</p>
         </div>
       </div>
     </div>
+  </div>
 
-    <script src="darkmode.js"></script>
-  </body>
+  <script src="darkmode.js"></script>
+  <script src="./vendor/vue@2.js"></script>
+  <script src="app.js"></script>
+</body>
+
 </html>
