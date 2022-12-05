@@ -76,7 +76,7 @@ data() {
 - Buka kembali `index.html`
 - Render properti `items` menggunakan `v-for` pada elemen `<div id="item">` didalam HTML
 
-```js
+```bash
 <div class="items">
   <div v-for="item in items" :key="item.id" class="item">
     <div class="foto">
